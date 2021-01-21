@@ -1,0 +1,23 @@
+{
+  "name": "learning-microfrontends-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently  \"cd marketing && npm start\" \"cd container && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imantz/learning-microfrontends-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Imantz/learning-microfrontends-2/issues"
+  },
+  "homepage": "https://github.com/Imantz/learning-microfrontends-2#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
